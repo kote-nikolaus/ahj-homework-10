@@ -1,0 +1,99 @@
+body {
+  background-color: #292F36;
+  padding: 15px 40px;
+  font-family: sans-serif;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+#typing-area {
+  min-width: 500px;
+  min-height: 60px;
+}
+
+button {
+  display: block;
+  width: 160px;
+  height: 40px;
+  border: 0;
+  color: #F5F5F5;
+  background-color: #4ECDC4;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #FE5F55;
+  cursor: pointer;
+}
+
+#posts {
+  margin-bottom: 20px;
+}
+
+.post {
+  width: 600px;
+  box-sizing: border-box;
+  padding: 12px;
+  background-color: #F5F5F5;
+  color: #292F36;
+  margin-bottom: 10px;
+}
+
+.post-info {
+  font-size: 11px;
+}
+
+.post-date {
+  text-align: right;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  width: 500px;
+  height: 300px;
+  background-color: #F5F5F5;
+  color: #292F36;
+  left: 60px;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 4px solid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.modal-active {
+  display: flex;
+}
+
+#coords {
+  height: 30px;
+  width: 400px;
+  display: block;
+}
+
+.input-coords-label {
+  display: block;
+}
+
+.modal-buttons-group {
+  display: flex;
+}
+
+.modal-button {
+  width: 150px;
+  color: #F5F5F5;
+  font-weight: 700;
+  margin: 0 30px;
+}
+
